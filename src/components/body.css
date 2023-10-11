@@ -1,0 +1,14 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card-container{
+    display: flex;
+   
+    justify-content: center;
+    flex-wrap: wrap;
+     
+}

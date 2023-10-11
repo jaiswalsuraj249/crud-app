@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    padding: 12px;
+    margin-left: 26px;
+    margin-top: 22px;
+   flex-direction: column;
+    min-width: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+   max-width: 243px;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+  
+   border:1px solid whitesmoke;
+ background-color: aliceblue;
+    color: rgb(83, 216, 68);
+    border-radius: 12px;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.gradient-text {
+    font-size: 24px;
+    margin-bottom: 2px;
+    background: linear-gradient(to right, #ff9900, #ff3366);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+  }
+  .gradient-text-p  {
+    font-size: 18px;
+    background: linear-gradient(to right, #d1df30, #35c430);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 2px;
+    display: flex;
+    color: transparent; /* Hide the original text color */
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    align-items: center; /* Vertically center the child elements */
+    width: 100%; /* Ensure the child elements take up the entire width */
+    padding: 8px; /* Add padding around the child elements for spacing */
+  }
+  
+  .delete:hover{
+    cursor: pointer;
+    color: red;
+    background-color: white;
+    z-index: 1500;
+    transform: scale(2.05);
+    
+  }
+  .edit:hover{
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(27, 34, 238);
+    background-color: white;
+    z-index: 1500;
+    transform: scale(2.05);
+    
+   
+  }
